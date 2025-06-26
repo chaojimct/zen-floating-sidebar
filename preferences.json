@@ -1,9 +1,10 @@
 [
   {
-    "property": "theme.floating_history.position",
+    "property": "mod.floating_history.position",
     "label": "Position",
     "type": "dropdown",
     "defaultValue": "right",
+    "placeholder": "Use Default",
     "options": [
       {
         "label": "Left",
