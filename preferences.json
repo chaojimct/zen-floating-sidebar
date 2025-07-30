@@ -1,6 +1,6 @@
 [
     {
-        "property": "theme.floating_history.position",
+        "property": "theme.floating_sidebar.position",
         "label": "Position",
         "type": "dropdown",
         "defaultValue": "right",
