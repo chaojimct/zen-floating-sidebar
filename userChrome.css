@@ -6,13 +6,13 @@
 
 /* Horizontal Position */
 
-:root:has(#theme-Floating-History[theme-floating_history-position="right"]) {
+:root:has(#theme-Floating-History[theme-floating_sidebar-position="right"]) {
     --floating-history-transform-translateX: 110%;
     --floating-history-position-right: 15px;
     --floating-history-position-left: auto;
 }
 
-:root:has(#theme-Floating-History[theme-floating_history-position="left"]) {
+:root:has(#theme-Floating-History[theme-floating_sidebar-position="left"]) {
     --floating-history-transform-translateX: -110%;
     --floating-history-position-left: 15px;
     --floating-history-position-right: auto;
