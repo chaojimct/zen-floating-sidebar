@@ -19,7 +19,7 @@
 }
 
 /* Disable dragable splitter */
-#sidebar-box[sidebarcommand="viewHistorySidebar"] + splitter {
+#sidebar-box + splitter {
   display: none !important;
 }
 
@@ -29,7 +29,7 @@
 }
 
 /* History Tab Styles */
-#sidebar-box[sidebarcommand="viewHistorySidebar"] {
+#sidebar-box {
     order: none !important;
     height: 80% !important;
     width: 22em !important;
@@ -73,7 +73,7 @@
 
 /* Inner Styles of History Tab */
 
-#sidebar-box[sidebarcommand="viewHistorySidebar"] box#sidebar-header {
+#sidebar-box box#sidebar-header {
     border-bottom: none !important;
 }
 
